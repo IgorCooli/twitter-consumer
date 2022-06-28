@@ -1,0 +1,33 @@
+{
+  "name": "tcc-twitter-bot",
+  "version": "1.0.0",
+  "description": "This bot is responsible for searching tweets about covid-19.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorCooli/TCC-twitter-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "covid",
+    "covid-19",
+    "twitter"
+  ],
+  "author": "Igor Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorCooli/TCC-twitter-bot/issues"
+  },
+  "homepage": "https://github.com/IgorCooli/TCC-twitter-bot#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "redis": "^3.1.2",
+    "twit": "^2.2.11"
+  }
+}

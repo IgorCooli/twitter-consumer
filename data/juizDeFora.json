@@ -1,0 +1,315 @@
+{
+    "query": {
+        "url": "https://api.twitter.com/1.1/geo/reverse_geocode.json?lat=-21.7624&long=-43.3435&accuracy=30000",
+        "type": "reverse_geocode",
+        "params": {
+            "accuracy": 30000,
+            "coordinates": {
+                "coordinates": [
+                    -43.3435,
+                    -21.7624
+                ],
+                "type": "Point"
+            },
+            "granularity": "neighborhood"
+        }
+    },
+    "result": {
+        "places": [
+            {
+                "id": "c5292d78d38e3af6",
+                "name": "Juiz de Fora",
+                "full_name": "Juiz de Fora, Brasil",
+                "country": "Brazil",
+                "country_code": "BR",
+                "url": "https://api.twitter.com/1.1/geo/id/c5292d78d38e3af6.json",
+                "place_type": "city",
+                "attributes": {},
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                -43.6983481,
+                                -21.9998657
+                            ],
+                            [
+                                -43.6983481,
+                                -21.416164
+                            ],
+                            [
+                                -43.147387,
+                                -21.416164
+                            ],
+                            [
+                                -43.147387,
+                                -21.9998657
+                            ],
+                            [
+                                -43.6983481,
+                                -21.9998657
+                            ]
+                        ]
+                    ]
+                },
+                "centroid": [
+                    -43.471235359314875,
+                    -21.708014849999998
+                ],
+                "contained_within": [
+                    {
+                        "id": "ce0385aee84dbdf9",
+                        "name": "Minas Gerais",
+                        "full_name": "Minas Gerais, Brazil",
+                        "country": "Brazil",
+                        "country_code": "BR",
+                        "url": "https://api.twitter.com/1.1/geo/id/ce0385aee84dbdf9.json",
+                        "place_type": "admin",
+                        "attributes": {},
+                        "bounding_box": {
+                            "type": "Polygon",
+                            "coordinates": [
+                                [
+                                    [
+                                        -51.046664,
+                                        -22.9228324
+                                    ],
+                                    [
+                                        -51.046664,
+                                        -14.2318345
+                                    ],
+                                    [
+                                        -39.856848,
+                                        -14.2318345
+                                    ],
+                                    [
+                                        -39.856848,
+                                        -22.9228324
+                                    ],
+                                    [
+                                        -51.046664,
+                                        -22.9228324
+                                    ]
+                                ]
+                            ]
+                        },
+                        "centroid": [
+                            -45.185213332017646,
+                            -18.57733345
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "2f6efc5ac9adf8c0",
+                "name": "Juiz de Fora",
+                "full_name": "Juiz de Fora, Minas Gerais",
+                "country": "Brazil",
+                "country_code": "BR",
+                "url": "https://api.twitter.com/1.1/geo/id/2f6efc5ac9adf8c0.json",
+                "place_type": "neighborhood",
+                "attributes": {},
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                -43.3548919,
+                                -21.7704781
+                            ],
+                            [
+                                -43.3548919,
+                                -21.7488578
+                            ],
+                            [
+                                -43.3383386,
+                                -21.7488578
+                            ],
+                            [
+                                -43.3383386,
+                                -21.7704781
+                            ],
+                            [
+                                -43.3548919,
+                                -21.7704781
+                            ]
+                        ]
+                    ]
+                },
+                "centroid": [
+                    -43.34715312619338,
+                    -21.75966795
+                ],
+                "contained_within": [
+                    {
+                        "id": "c5292d78d38e3af6",
+                        "name": "Juiz de Fora",
+                        "full_name": "Juiz de Fora, Brasil",
+                        "country": "Brazil",
+                        "country_code": "BR",
+                        "url": "https://api.twitter.com/1.1/geo/id/c5292d78d38e3af6.json",
+                        "place_type": "city",
+                        "attributes": {},
+                        "bounding_box": {
+                            "type": "Polygon",
+                            "coordinates": [
+                                [
+                                    [
+                                        -43.6983481,
+                                        -21.9998657
+                                    ],
+                                    [
+                                        -43.6983481,
+                                        -21.416164
+                                    ],
+                                    [
+                                        -43.147387,
+                                        -21.416164
+                                    ],
+                                    [
+                                        -43.147387,
+                                        -21.9998657
+                                    ],
+                                    [
+                                        -43.6983481,
+                                        -21.9998657
+                                    ]
+                                ]
+                            ]
+                        },
+                        "centroid": [
+                            -43.471235359314875,
+                            -21.708014849999998
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "ce0385aee84dbdf9",
+                "name": "Minas Gerais",
+                "full_name": "Minas Gerais, Brazil",
+                "country": "Brazil",
+                "country_code": "BR",
+                "url": "https://api.twitter.com/1.1/geo/id/ce0385aee84dbdf9.json",
+                "place_type": "admin",
+                "attributes": {},
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                -51.046664,
+                                -22.9228324
+                            ],
+                            [
+                                -51.046664,
+                                -14.2318345
+                            ],
+                            [
+                                -39.856848,
+                                -14.2318345
+                            ],
+                            [
+                                -39.856848,
+                                -22.9228324
+                            ],
+                            [
+                                -51.046664,
+                                -22.9228324
+                            ]
+                        ]
+                    ]
+                },
+                "centroid": [
+                    -45.185213332017646,
+                    -18.57733345
+                ],
+                "contained_within": [
+                    {
+                        "id": "1b107df3ccc0aaa1",
+                        "name": "Brazil",
+                        "full_name": "Brazil",
+                        "country": "Brazil",
+                        "country_code": "BR",
+                        "url": "https://api.twitter.com/1.1/geo/id/1b107df3ccc0aaa1.json",
+                        "place_type": "country",
+                        "attributes": {},
+                        "bounding_box": {
+                            "type": "Polygon",
+                            "coordinates": [
+                                [
+                                    [
+                                        -73.991482,
+                                        -33.7510506
+                                    ],
+                                    [
+                                        -73.991482,
+                                        5.27192
+                                    ],
+                                    [
+                                        -32.378186,
+                                        5.27192
+                                    ],
+                                    [
+                                        -32.378186,
+                                        -33.7510506
+                                    ],
+                                    [
+                                        -73.991482,
+                                        -33.7510506
+                                    ]
+                                ]
+                            ]
+                        },
+                        "centroid": [
+                            -49.72475059293382,
+                            -14.239565299999999
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "1b107df3ccc0aaa1",
+                "name": "Brazil",
+                "full_name": "Brazil",
+                "country": "Brazil",
+                "country_code": "BR",
+                "url": "https://api.twitter.com/1.1/geo/id/1b107df3ccc0aaa1.json",
+                "place_type": "country",
+                "attributes": {},
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                -73.991482,
+                                -33.7510506
+                            ],
+                            [
+                                -73.991482,
+                                5.27192
+                            ],
+                            [
+                                -32.378186,
+                                5.27192
+                            ],
+                            [
+                                -32.378186,
+                                -33.7510506
+                            ],
+                            [
+                                -73.991482,
+                                -33.7510506
+                            ]
+                        ]
+                    ]
+                },
+                "centroid": [
+                    -49.72475059293382,
+                    -14.239565299999999
+                ],
+                "contained_within": []
+            }
+        ]
+    }
+}
