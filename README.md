@@ -24,6 +24,11 @@ Esse serviço deve ser executado em conjunto com o [*serviço de análise de sen
 
 ---
 
+### Endpoints:
+`URL_SISTEMA/run` -> Começa o processo de coleta dos dados
+
+---
+
 ### Variáveis de ambiente
 
 | Chave  | Valor |
