@@ -13,7 +13,6 @@ e enviá-los para uma fila no Redis para que possam ser consumidos por outras ap
 
 ---
 ### Pré-requisitos:
-- JDK 11+
 - Node 10+
 
 ---
